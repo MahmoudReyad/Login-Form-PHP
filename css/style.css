@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+form {
+    max-width: 500px;
+    margin: 10px auto;
+}
+form textarea {
+  height: 175px !important;
+}
+form input {
+  padding-left: 30px !important;
+}
+
+form i {
+  position: relative;
+  top :-28px;
+  left: 5px;
+
+}
+.form-group {
+  margin: 0;
+}
+form > i:last-of-type {
+  color: #fff;
+}
+
+.custom-alert {
+  padding: 5px 7px;
+  display:  none;
+}
+
+.alert {
+  max-width: 500px;
+}
