@@ -34,3 +34,6 @@ form > i:last-of-type {
 .alert {
   max-width: 500px;
 }
+textarea {
+  margin-bottom: 15px;
+}
