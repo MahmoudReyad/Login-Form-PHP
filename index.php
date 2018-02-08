@@ -1,10 +1,5 @@
 <?php
 // Check if the user come from POST Request
-
-
-
-
-
   if($_SERVER['REQUEST_METHOD'] == "POST"){
     $user_name = filter_var( $_POST['user'] , FILTER_SANITIZE_STRING);
     $email = filter_var($_POST['Email'] , FILTER_SANITIZE_EMAIL);
