@@ -17,3 +17,8 @@ body {
 .login-form input , .signup-form input {
   margin: 15px auto !important;
 }
+.signup-form input:not([type = "submit"]) , .login-form input:not([type = "submit"]){
+  color: #fff;
+}
+input::placeholder {
+}
